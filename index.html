@@ -13,56 +13,58 @@
 
   <div class="page">
 
-    <header class="header block-indent__bottom">
-      <div class="logo-YA logo-place-header logo-header__size header__position__top header-position__left">
+    <header class="header block-indent__bottom background-header">
+
+      <div class="logo-place__size header__position__top header-position__left">
         <img  src="/images/logo_place_header.svg" alt="Логотип компании Яндекс">
       </div>
 
-      <div class="header-title-text header-title header-position__left">
+      <div class="header-title-text header-title header-position__left header-title__Z__position">
         <p1 >научиться учиться</p1>
       </div>
 
-      <div class="subtitle-title-text header-subtitle header-position__left header__position__bottom">
+      <div class="subtitle-title-text header-subtitle header-position__left header__position__bottom header-title__Z__position">
         <p1>Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a class="link-decoration__none color-link" href="#">Узнать →</a></p1>
       </div>
 
       <div class="header-images-main">
         <img class="header-images-main" src="images/header-image.png" alt="Главная картинка в шапке">
       </div>
-
-      <div class="square-pic"></div>
+      <div class="square-pic square-pic__color"></div>
     </header>
 
-    <div class="description block-indent__bottom">
+    <div class="content">
+      <div class="description block-indent__bottom">
 
       <div class="two-columns">
         <a href="#" class="brief-link link-decoration__none color-link">Главные проблемы в обучении</a>
-      </div>
+        <div class="main-text">
 
-      <div class="main-text">
+          <div class="paragraph">
 
-        <div class="paragraph">
+            <p class="paragraph-text paragraph-text__margin">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты.
+              Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания.
+              Зубрежка быстро выветривается и не приносит пользы.</p>
 
-        <p class="paragraph-text paragraph-text__margin">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты.
-          Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания.
-          Зубрежка быстро выветривается и не приносит пользы.</p>
+            <p class="paragraph-text paragraph-text__margin"><span class="span-accent">Вывод: </span>учиться тоже нужно уметь,
+              но почему-то этому мало где учат.
+              Что с этим делать?</p>
 
-          <p class="paragraph-text paragraph-text__margin"><span class="span-accent">Вывод: </span>учиться тоже нужно уметь,
-            но почему-то этому мало где учат.
-            Что с этим делать?</p>
+            <p class="paragraph-text">
+              Конкретные техники и упражнения помогают изменить подход к обучению,
+              сделать его эффективным и захватывающим.
+              Эти же техники применяются на примере обучения в Практикуме.
+            </p>
+          </div>
 
-          <p class="paragraph-text">
-            Конкретные техники и упражнения помогают изменить подход к обучению,
-            сделать его эффективным и захватывающим.
-            Эти же техники применяются на примере обучения в Практикуме.
-          </p>
         </div>
-
       </div>
+
+
 
     </div>
 
-    <div class="digits">
+      <div class="digits digits__margin__bottom">
 
       <p class="selection-title">Цифры и факты</p>
       <p class="selection-subtitle digits__margin-top">Про учебу и мозг</p>
@@ -116,7 +118,7 @@
 
     </div>
 
-    <div class="feynman">
+      <div class="feynman">
 
       <a class="link-decoration__none color-link feynman-link" href="#">Подробнее →</a>
 
@@ -129,7 +131,7 @@
 
     </div>
 
-    <div class="kaufman">
+      <div class="kaufman">
 
       <img class="kaufman-triangle" src="images/kaufman-triangle.svg">
 
@@ -185,6 +187,7 @@
 
 
     </div>
+    </div>
 
     <div class="footer footer__padding-top footer_padding-bottom">
 
@@ -195,35 +198,39 @@
       </div>
 
       <div class="column-content__info selection-subtitle__dark">
-        <p class="footer-title">О Практикуме</p>
-        <p><a class="footer-subtitle link-decoration__none selection-subtitle__dark" href="#">Главная</a></p>
-        <p><a class="link-decoration__none selection-subtitle__dark" href="#">Концепция</a></p>
-        <p><a class="link-decoration__none selection-subtitle__dark" href="#">Наставники</a></p>
+        <div class="footer-title">О Практикуме</div>
+        <div class="footer-subtitle__margin">
+        <div><a class="footer-subtitle link-decoration__none selection-subtitle__dark" href="#">Главная</a></div>
+        <div><a class="footer-subtitle link-decoration__none selection-subtitle__dark" href="#">Концепция</a></div>
+        <div><a class="footer-subtitle link-decoration__none selection-subtitle__dark" href="#">Наставники</a></div>
+        </div>
       </div>
 
       <div class="column-content__social selection-subtitle__dark">
-        <p class="footer-title">Соцсети</p>
-        <div class="column-content__social__youtube">
-        <img src="images/youtube-icon.svg">
-        <a class="link-decoration__none selection-subtitle__dark" href="#">YouTUbe</a>
-        </div>
+        <div class="footer-title">Соцсети</div>
 
-        <div class="column-content__social__vk">
-          <img src="images/vk_color_white.svg">
-          <a class="link-decoration__none selection-subtitle__dark" href="#">Вконтакте</a>
-        </div>
+        <div class="footer-subtitle__margin">
+          <div class="footer-subtitle column-content__social__youtube">
+          <img class="footer-social-icon" src="images/youtube-icon.svg">
+          <a class="link-decoration__none selection-subtitle__dark" href="#">YouTUbe</a>
+          </div>
 
-        <div class="column-content__social__tt">
-          <img src="images/tiktok-icon.svg">
-          <a class="link-decoration__none selection-subtitle__dark" href="#">TikTok</a>
-        </div>
+          <div class="footer-subtitle column-content__social__vk">
+            <img class="footer-social-icon" src="images/vk_color_white.svg">
+            <a class="link-decoration__none selection-subtitle__dark" href="#">Вконтакте</a>
+          </div>
 
+          <div class="footer-subtitle column-content__social__tt">
+            <img class="footer-social-icon" src="images/tiktok-icon.svg">
+            <a class="link-decoration__none selection-subtitle__dark" href="#">TikTok</a>
+          </div>
+        </div>
         </div>
 
       </ul>
 
-    </div>
-    </div>
+    </div></div>
+
   </div>
 
 </body>
