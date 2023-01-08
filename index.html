@@ -6,17 +6,19 @@
   <title>Научиться учиться</title>
   <meta name="description" content="Учебный проект">
   <meta name="keywords" content="html, css, javascript">
-  <meta name="author" content="Евгений Кривов">
+  <meta name="author" content="Евгений Кривов">\
+
+  <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
 
   <div class="page">
 
-    <header class="header block-indent__bottom background-header">
+    <header class="header background-header">
 
       <div class="logo-place__size header__position__top header-position__left">
-        <img  src="/images/logo_place_header.svg" alt="Логотип компании Яндекс">
+        <img src="/images/logo_place_header.svg" alt="Логотип компании Яндекс">
       </div>
 
       <div class="header-title-text header-title header-position__left header-title__Z__position">
@@ -34,7 +36,8 @@
     </header>
 
     <div class="content">
-      <div class="description block-indent__bottom">
+
+      <div class="description">
 
       <div class="two-columns">
         <a href="#" class="brief-link link-decoration__none color-link">Главные проблемы в обучении</a>
@@ -64,7 +67,7 @@
 
     </div>
 
-      <div class="digits digits__margin__bottom">
+      <div class="digits digits-margin__bottom">
 
       <p class="selection-title">Цифры и факты</p>
       <p class="selection-subtitle digits__margin-top">Про учебу и мозг</p>
@@ -122,9 +125,13 @@
 
       <a class="link-decoration__none color-link feynman-link" href="#">Подробнее →</a>
 
-      <div class="feynman-title">Метод Фейнмана</div>
+      <div class="feynman-title-container">
 
-      <div class="feynman-subtitle feynman-subtitle__margin-top">Выучить и не забыть.</div>
+        <div class="feynman-title">Метод Фейнмана</div>
+
+        <div class="feynman-subtitle feynman-subtitle__margin-top">Выучить и не забыть.</div>
+
+      </div>
 
       <div class="feynman-image"><img src="images/feynman.png" alt="Главная фотография блока"></div>
 
@@ -185,13 +192,14 @@
   </div>
 
     </div>
+
     </div>
 
     <div class="footer footer__padding-top footer_padding-bottom">
 
       <div class="footer__width">
       <div class="column">
-          <img class="footer-image" src="images/logo_place_footer.svg" alt="Лого: 'Яндекс Практикум'">
+          <img class="footer-image logo-place__size" src="images/logo_place_footer.svg" alt="Лого: 'Яндекс Практикум'">
           <a class="column-content__author column-content__author__margin selection-subtitle__dark link-decoration__none footer-author__title" href="#">© Евгений Кривов</a>
       </div>
 
