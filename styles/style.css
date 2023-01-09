@@ -204,6 +204,7 @@
   background-color: #f2f2f2;
   position: relative;
   padding-top: 100px;
+  margin-top: 100px;
   height: 790px;
   display: flex;
   justify-content: center;
@@ -243,14 +244,14 @@
   color: #2f80ed;
 }
 
-.feynman-image {
+.feynman__image {
   position: absolute;
   bottom: 0;
   left: 0;
 }
 
 .kaufman{
-  background-color: black;
+  background-color: #1f1f1f;
   justify-content: center;
   position: relative;
   overflow: hidden;
@@ -279,14 +280,6 @@
   color: white;
 }
 
-.kaufman-padding-top {
-  padding-top: 90px;
-}
-
-.kaufman-padding-bottom {
-  padding-bottom: 90px;
-}
-
 .kaufman__triangle {
   position: absolute;
   top: 0;
@@ -300,8 +293,8 @@
 .footer {
   display: flex;
   min-height: 350px;
-  background-color: black;
-
+  background-color: #1f1f1f;
+  padding: 60px 0 40px 0;;
 }
 
 .column {
@@ -309,11 +302,6 @@
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-}
-
-
-.footer_padding-bottom{
-  padding-bottom: 40px;
 }
 
 .footer__column_content_copyright {
@@ -343,16 +331,20 @@
   color: white;
 }
 
-.footer-subtitle{
+.footer__column-links {
+  margin-top: 20px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.footer__column-link {
+  text-decoration: none;
+  color: white;
   font-size: 18px;
   line-height: 30px;
   font-weight: normal;
 }
 
-.footer__column-links {
-  margin-top: 20px;
-}
-
-.footer-social-icon {
+.footer__social-icon {
   margin-right: 10px;
 }
