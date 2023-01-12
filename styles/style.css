@@ -9,18 +9,18 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  justify-content: center;
   z-index: 0;
   position: relative;
   background-color: #f2f2f2;
+  display: flex;
 }
 
 .logo_place_header {
-  margin-left: 64px;
-  margin-top: 30px;
+  position: absolute;
+  left: 64px;
+  top: 30px;
   background-image: url("../images/logo_place_header.svg");
 }
 
@@ -34,25 +34,24 @@
 }
 
 .header__title {
-  margin-left: 64px;
+  margin:  0 0 0 64px;
   width: 730px;
   font-size: 102px;
   line-height: 96px;
   font-weight: 600;
-  position: relative;
   z-index: 2;
+  display: flex;
 }
 
 .header__subtitle {
-  display: block;
   line-height: 25px;
   font-size: 18px;
   width: 388px;
   font-weight: normal;
-  position: relative;
   z-index: 2;
-  margin-left: 64px;
-  margin-bottom: 30px;
+  left: 64px;
+  bottom: 30px;
+  position: absolute;
 }
 
 .header__link {
@@ -62,15 +61,14 @@
   z-index: 2;
 }
 
-.header__mail-illustration {
+.header__main-illustration {
   height: 608px;
   width: 756px;
   z-index: 1;
   position: absolute;
   bottom: 0;
   right: 0;
-  display: flex;
-  justify-content: right;
+  object-fit: fill;
 }
 
 .header__square-pic {
@@ -84,13 +82,15 @@
 
 .description {
   min-width: 784px;
-  width: 80%;
   margin: 100px auto;
+  display: flex;
+  justify-content: center;
 }
 
 .two-columns {
   display: flex;
   justify-content: space-between;
+  width: 80%;
 }
 
 .two-columns__brief {
@@ -101,6 +101,7 @@
   display: flex;
   color: #2f80ed;
   text-decoration: none;
+  margin: 0 auto;
 }
 
 .two-columns__main-text {
@@ -109,13 +110,17 @@
   text-align: justify;
   width: 80%;
   min-width: 784px;
-  margin: -15px 0;
 }
 
 .two-columns__paragraph {
   font-size: 24px;
   line-height: 34px;
-  margin: 15px 0;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.two-columns__paragraph:last-child {
+  margin-bottom: 0;
 }
 
 .paragraph-text__margin {
@@ -132,7 +137,7 @@
   display: flex;
   flex-direction: column;
   width: 1100px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .selection-title {
@@ -162,7 +167,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   width: 1100px;
-  margin: auto;
+  margin: 0 auto;
 
 }
 
@@ -174,6 +179,7 @@
 
 .table__cell {
   width: 250px;
+  margin-top: 60px;
   justify-content: center;
 }
 
@@ -181,7 +187,8 @@
   font-size: 24px;
   line-height: 1.15;
   font-weight: 600;
-  margin-top: 60px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .table__heading_theme_dark {
@@ -203,7 +210,7 @@
   width: 200px;
   color: white;
   margin-right: 0;
-  margin-top: 20px;
+  margin-top: 80px;
   justify-content: center;
 }
 
@@ -211,7 +218,7 @@
   background-color: #f2f2f2;
   position: relative;
   margin-top: 100px;
-  height: 890px;
+  min-height: 790px;
   justify-content: center;
   text-align: center;
   flex-direction: column;
@@ -247,9 +254,8 @@
   line-height: 51px;
   font-weight: normal;
   position: absolute;
-  right: 0;
   top: 50%;
-  margin-right: 48px;
+  right: 48px;
   text-decoration: none;
   color: #2f80ed;
   z-index: 2;
@@ -259,6 +265,8 @@
   position: absolute;
   bottom: 0;
   left: 0;
+  width: 867px;
+  height: 637px;
 }
 
 .kaufman {
@@ -266,7 +274,7 @@
   justify-content: center;
   position: relative;
   overflow: hidden;
-  margin: auto;
+  margin: 0 auto;
   padding-bottom: 90px;
 }
 .selection-title_theme_dark {
@@ -298,12 +306,14 @@
 }
 
 .footer {
-  min-height: 350px;
   background-color: #1f1f1f;
   padding: 60px 0 40px 0;
+  box-sizing: border-box;
+  min-height: 350px;
 }
 
 .footer__column {
+
   width: 90%;
   display: flex;
   justify-content: space-between;
@@ -315,10 +325,13 @@
   width: 711px;
   justify-content: space-between;
   flex-direction: column;
+  padding: 0;
 }
 
 .footer__column_content_info {
   flex-direction: column;
+  padding: 0;
+  margin: 0;
 }
 
 .footer__column-heading {
@@ -328,18 +341,24 @@
   margin: 0;
   color: white;
 }
+
+.footer__column_content_social {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 .footer__author {
   font-size: 18px;
   line-height: 25px;
   font-weight: normal;
-  margin-bottom: 18px;
-  margin-top: 18px;
+  margin: 18px 0 18px 0;
   text-decoration: none;
   color: white;
 }
 
 .footer__column-links {
   margin-top: 20px;
+  margin-bottom: 16px;
   list-style-type: none;
   padding-left: 0;
 }
@@ -354,4 +373,6 @@
 
 .footer__social-icon {
   margin-right: 10px;
+  width: 16px;
+  height: 16px;
 }
