@@ -301,7 +301,7 @@
   z-index: 0;
   display: flex;
   background-size: 100%;
-  background-image: url("/images/kaufman-triangle.svg");
+  background-image: url("../images/kaufman-triangle.svg");
 }
 
 .footer {
