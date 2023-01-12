@@ -29,12 +29,12 @@
   width: 228px;
 }
 
-.logo_place_footer{
+.logo_place_footer {
   background-image: url("../images/logo_place_footer.svg");
 }
 
 .header__title {
-  margin:  0 0 0 64px;
+  margin: 0 0 0 64px;
   width: 730px;
   font-size: 102px;
   line-height: 96px;
@@ -168,7 +168,6 @@
   justify-content: space-between;
   width: 1100px;
   margin: 0 auto;
-
 }
 
 .table_theme_dark {
@@ -313,7 +312,6 @@
 }
 
 .footer__column {
-
   width: 90%;
   display: flex;
   justify-content: space-between;
