@@ -8,4 +8,5 @@
   display: flex;
   background-size: 100%;
   background-image: url("../../../images/kaufman-triangle.svg");
+  animation: rotation 40s linear 1;
 }

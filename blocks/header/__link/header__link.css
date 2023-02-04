@@ -3,4 +3,11 @@
   color: #2f80ed;
   position: relative;
   z-index: 2;
+  opacity: 1;
+  transition: 0.25s ease-in-out;
+}
+
+.header__link:hover {
+  opacity: 0.5;
+  transition: 0.25s ease-in-out;
 }
