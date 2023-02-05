@@ -1,4 +1,5 @@
 .footer__column_content_social {
   padding-top: 0;
   padding-bottom: 0;
+  flex-direction: column;
 }
