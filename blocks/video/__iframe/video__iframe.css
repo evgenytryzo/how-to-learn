@@ -1,14 +1,8 @@
 .video__iframe {
   width: 515px;
   height: 316px;
-  opacity: 1;
-  transition: 0.25s ease-in-out;
+  border:0;
 }
 .video__iframe:last-child {
  margin-left: 20px;
-}
-
-.video__iframe:hover {
-  opacity: 0.5;
-  transition: 0.25s ease-in-out;
 }
